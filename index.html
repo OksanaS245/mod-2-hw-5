@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детский клуб</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="js/bootstrap/js/bootstrap.js" defer></script>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="menu-wrapper">
+                <nav>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#">О нас</a></li>
+                        <li class="menu__item"><a href="#">Расписание</a></li>                      
+                    </ul>
+                    <a href="#"><img src="img/logo.png" alt="logo" style="width: 99px; height: 81px;"></a>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#">Новости</a></li>
+                        <li class="menu__item"><a href="#">Контакты</a></li>                      
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="offer-section">
+        <div class="container">
+            <div class="row offer align-items-center">
+                <div class="col-xl-5 col-md-5 offer-wrapper">
+                    <h1>Добро пожаловать в&nbsp;наш детский клуб!</h1>
+                    <p class="offer__text">Мы предлагаем уникальные развивающие игры для детей возрастом от 2 до 6 лет. Познавательное обучение&nbsp;через веселые игры - наша страсть!</p>
+                    <a href="#"><button class="offer__button button">Присоединиться к нам</button></a>
+                </div>
+                <div class="col-xl-7 col-md-7 image-wrapper">
+                    <img class="offer__image" src="img/rainbow.png" alt="rainbow" style="width: 635px; height: 360px;">
+                    <img class="offer__ft-bg-image" src="img/orange.svg" alt="orange" style="width: 675px; height: 766px;">
+                    <img class="offer__sd-bg-image" src="img/red.svg" alt="red" style="width: 570px; height: 505px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="game-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <h2>Наши развивающие игры</h2>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-xl-6 col-md-6 slider-wrapper">
+                    <img class="slider__image" src="img/blue.svg" alt="blue" style="width: 675px; height: 766px;">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-wrapper">
+                        <div class="carousel-indicators carousel-button">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner ">
+                          <div class="carousel-item active">
+                            <img src="img/hands.png" class="d-block w-100" alt="hands" style="max-width: 540px; max-height: 350px;">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/desk.png" class="d-block w-100" alt="desk" style="max-width: 540px; max-height: 350px;">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/tree.png" class="d-block w-100" alt="tree" style="max-width: 540px; max-height: 350px;">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-xl-5 col-md-5">
+                    <h3>Игры, которые развивают воображение и интеллект!</h3>
+                    <p class="slider__text">Наши разнообразные игры способствуют развитию умственных и физических навыков детей. От азбуки до математики - учиться легко и весело!</p>
+                    <a href="#"><button class="button slider__button"><img src="img/arrow.png" alt="arrow" style="margin-right: 31px; height: 35px; width: 19px;"> Узнать больше</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="teacher-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <h2>Опытные и заботливые педагоги</h2>
+                </div>
+            </div>
+                <div class="teacher-section-wrapper">
+                    <div style="display: flex; gap: 1.88rem; align-items: end;">
+            <div class="left-block">
+                <p class="block-text">Наша команда состоит из опытных педагогов, специализирующихся на обучении малышей. Мы создаем безопасную и дружественную среду для их развития.</p>
+                <img class="left-image" src="img/gallery3.png" alt="teacher" style="height: 350px; width: 540px;">
+            </div>
+            <div class="right-block">
+                <img class="block-image" src="img/gallery1.png" alt="kids" style="width: 160px; height: 160px;">
+                <img class="block-image" src="img/gallery2.png" alt="study" style="width: 350px; height: 350px;">
+                <img class="block-image" src="img/gallery4.png" alt="girl" style="width: 160px; height: 350px;">
+                <img class="block-image" src="img/gallery5.png" alt="groupp" style="width: 350px; height: 160px;">
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section class="benefits">
+        <div class="container">
+                <h2>Почему выбирают нас?</h2>
+                <div class="benefits__wrapper">
+                    <div class="benefits__list">
+                        <div class="benefits__item"></div>
+                        <p class="benefits__text">Интерактивные игры, развивающие умственные и&nbsp;физические способности</p>
+                    </div>
+                    <div class="benefits__list">
+                        <div class="benefits__item"></div>
+                        <p class="benefits__text">Опытные и заботливые педагоги</p>
+                    </div>
+                    <div class="benefits__list">
+                        <div class="benefits__item"></div>
+                        <p class="benefits__text">Гибкое расписание занятий</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <a href="#"><button class="button benefits__button"><img src="img/arrow.png" alt="arrow" style="margin-right: 56px; height: 35px; width: 19px;">Записаться сейчас</button></a>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="form-section">
+        <div class="container">
+            <h2 class="form__title">Присоединяйтесь к нашему клубу прямо сейчас!</h2>
+            <p class="form__text">Заполните форму регистрации и начните увлекательное приключение развития для вашего ребенка.</p>
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-md-12">
+                    <form action="#" method="post" class="form">
+                        <input type="text" class="form__input" name="name" id="name" required placeholder="Имя">
+                        <input class="form__input" type="email" name="email" required placeholder="Email">
+                        <input class="form__input" type="tel" name="phone" id="phone" required placeholder="Телефон" pattern="[0-9]{10}">
+                        <button class="button form__button" type="submit">Зарегистрироваться</button>
+                    </form>
+                </div>
+                <div class="col-xl-6 col-md-12 form__image-wrapper">
+                        <img class="form__image" src="img/girl.png" alt="girl" style="max-width: 471px; max-height: 429px;">
+                        <img class="form__bg-image" src="img/small orange.svg" alt="orange" style="max-width: 557px; max-height: 494px;">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-wrapper">
+            <a href="#"><img src="img/logo-footer.png" alt="logo" class="footer__logo" style="width: 66px; height: 54px;"></a>
+            <nav class="footer__menu">
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item"><a href="#">О нас</a></li>
+                    <li class="footer__menu-item"><a href="#">Расписание</a></li>
+                    <li class="footer__menu-item"><a href="#">Новости</a></li>
+                    <li class="footer__menu-item"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
