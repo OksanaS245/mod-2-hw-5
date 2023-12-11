@@ -71,6 +71,15 @@ li {
     list-style-type: none;
 }
 
+
+
+.offer {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 147px;
+
+}
+
 h1 {
     font-family: Lobster;
     color: #464055;
