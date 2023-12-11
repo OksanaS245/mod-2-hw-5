@@ -57,6 +57,7 @@ nav {
     display: flex;
     gap: 63px;
     padding: 0;
+    z-index: 3;
 }
 
 .menu__list:first-child {
@@ -79,6 +80,7 @@ li {
     margin-bottom: 147px;
 
 }
+
 
 h1 {
     font-family: Lobster;
